@@ -1,11 +1,11 @@
-# COREBOOST · panel de organización (Core Dumped)
+# Code to the Core (CodeCore) · panel de organización (Core Dumped)
 
 Panel en vivo: https://coredumped-etsisi.github.io/2026-coreboost-panel/
 
-Panel interno para organizar **COREBOOST**, la competición de programación de la asociación Core Dumped (ETSISI, UPM).
+Panel interno para organizar **Code to the Core** (**CodeCore**, antes COREBOOST), la competición de programación de la asociación Core Dumped (ETSISI, UPM).
 
 - Página: `index.html` (HTML estático, sin build).
-- Datos en tiempo real: Firebase Realtime Database (proyecto `coreboost-e1ed5`), ruta `/coreboost`.
+- Datos en tiempo real: Firebase Realtime Database (proyecto `coreboost-e1ed5`), ruta `/coreboost` (nombre histórico; se conserva aunque el evento se haya renombrado).
   - `date` — fecha del evento
   - `members/<slug>` — `{name, roles[], updatedAt}`
   - `done/<rol>_<n>` — `{by, at}` por tarea tachada
